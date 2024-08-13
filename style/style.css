@@ -44,7 +44,6 @@
 }
 .nav-bar{
   justify-content: space-between;
-  
 }
 .color-grad{
   background: rgb(0,0,0);
@@ -53,7 +52,6 @@
 .nav-bar, .banner{
   max-width: 1440px;
   margin: 0% auto;
-  
 }
 .bd-rd{
   align-items: center;
@@ -183,6 +181,64 @@ h1{
 .ham{
   display: none;
 }
+
+/* Second page */
+.second-part{
+  max-width: 1440px;
+  margin: 0% auto;
+  margin-top: 90px;
+}
+.CB{
+  text-align: center;
+}
+h2{
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.being{
+  margin-bottom: 54px;
+}
+.CARD-1{
+  width: 200px;
+  height: 274px;
+  text-align: center;
+  align-items: center;
+  margin: 0 10px 0 10px;
+}
+.cd-txt1{
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 15px 0 8px 0;
+}
+.cd-txt2{
+  font-size: .875rem;
+  font-weight: 400;
+}
+.img3{
+  width: 200px; /* Adjust to desired size */
+  height: 200px; /* Adjust to desired size */
+  border-radius: 50%; /* Makes the container circular */
+  overflow: hidden; /* Ensures the image fits inside the circle */
+  border: 5px solid #252525; /* Adjusts the border color and thickness */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img3 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cardz{
+  display: flex;
+  gap: 100px;
+  margin: 0 190px 0 130px;
+}
+
+
+
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
   .nav-items{
