@@ -298,7 +298,6 @@ h2{
 /* fourth page */
 .two-para{
   margin: 70px 0 80px 490px;
-  
 }
 .bmi{
   font-size: 3rem;
@@ -594,6 +593,18 @@ button {
     max-width: 576px;
     margin: 0 20px;
   }
+  .banner-con h1{
+    font-size: 2.25rem;
+  }
+  .banner{
+    max-width: 576px;
+    flex-direction: column;
+  }
+  .dum{
+    width: 353px;
+    height: 588px;
+    
+  }
 
 
 
@@ -602,4 +613,74 @@ button {
 
 
 
+
+  /* second part */
+  .second-part{
+    max-width: 576px;
+    margin: 10px 20px;
+  }
+  .cardz{
+    flex-direction: column;
+  }
+  .dis-jus{
+    flex-direction: column;
+  }
+  .bor-grey{
+    width: 490px;
+    height: 740px;
+    margin: 30px 20px;
+  }
+  .content{
+    text-align: center;
+    padding: 30px 31px 20px 30px;
+  }
+  .run-img{
+    padding: 22px 10px 10px 33px;
+    width: 410px;
+    height: 50px;
+  }
+  .run-img img{
+    object-fit: cover;
+  }
+  .two-para{
+    margin: 50px 0 50px 50px;
+  }
+  .fbod-grey{
+    max-width: 576px;
+    height: 772px;
+  }
+  .left-bmi{
+    margin: 15px 20px 10px 20px;
+  }
+  .fourth-parent{
+    flex-direction: column;
+  }
+  .pic-border{
+    margin-left: 20px;
+    max-width: 576px;
+    
+  }
+  .trainer-grid{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .subscription-container{
+    margin-left: 10px;
+  }
+  .last-margin{
+    margin-left: 20px;
+    flex-direction: column;
+  }
+  .get-flex{
+    flex-direction: column;
+    margin: 10px 0 10px 20px;
+    gap: 5px;
+  }
+  .footbody{
+    height: 1150px;
+  }
+  .line{
+    width: 480px;
+    margin-left: 20px;
+  }
 }
